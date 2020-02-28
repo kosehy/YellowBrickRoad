@@ -1,3 +1,4 @@
+
 # Title
 
 ### Table Of Contents
@@ -40,6 +41,16 @@ For instructions and/or greater detail refer to the project [pdf][pdf]
 ## Installation 
 
 ## Usage  
+How to tweet using comand line??
+using DOCKER!!
+-	install virtual box using managed software center in launchpad
+-	brew install docker-machine docker
+-	brew services start docker-machine
+-	docker-machine create --driver virtualbox default
+-	eval "$(docker-machine env default)"
+-	docker pull debian:latest
+-	docker run -it debian /bin/bash
+-	https://vitux.com/tweet-directly-from-the-debian-command-line-using-rainbow-stream/
 
 ## Testing  
 
